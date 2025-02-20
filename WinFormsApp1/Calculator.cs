@@ -1,5 +1,4 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,12 +8,6 @@ namespace WinFormsApp1
 {
     internal class Calculator
     {
-        private const string ADDITION = "+";
-
-        private const string SUBTRACT = "-";
-
-        private const string MULTIPLY = "*";
-
         /**
          * 
          * This method calculate two numbers according to the operation
@@ -22,15 +15,15 @@ namespace WinFormsApp1
          */
         public double calculate(string operation, double no1, double no2)
         {
-            if (operation == ADDITION)
+            if (operation == "+")
             {
                 return (no1 + no2);
             }
-            else if (operation == SUBTRACT)
+            else if (operation == "-")
             {
                 return (no1 - no2);
             }
-            else if (operation == MULTIPLY)
+            else if (operation == "*")
             {
                 return (no1 * no2);
             }
