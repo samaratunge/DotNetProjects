@@ -12,7 +12,7 @@ namespace WinFormsApp1
          * 
          * This method calculate two numbers according to the operation
          * 
-         */
+         */ 
         public double calculate(string operation, double no1, double no2)
         {
             if (operation == "+")
